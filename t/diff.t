@@ -53,7 +53,7 @@ isnt $out, '';
 $err =~ s#^.* at .* line \d+\.$##m;
 is $err, <<'EOF';
 
-#   Failed test 'desc'
+# Failed test 'desc'
 
 # @@ -1,3 +1,3 @@
 #  {
